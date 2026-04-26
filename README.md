@@ -27,8 +27,10 @@ README.md
 
 | # | Problem                    | Difficulty | Link                                                                                                                   | Language |
 | - | -------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- | -------- |
-| 1 | 3Sum                       | Medium     | [https://leetcode.com/problems/3sum/](https://leetcode.com/problems/3sum/)                                             | C++      |
-| 2 | Furthest Point From Origin | Easy       | [https://leetcode.com/problems/furthest-point-from-origin/](https://leetcode.com/problems/furthest-point-from-origin/) | C++      |
+| 1 | 3Sum                       | Medium     | [https://leetcode.com/problems/3sum/]                                                                                  | C++      |
+| 2 | Furthest Point From Origin | Easy       | [https://leetcode.com/problems/furthest-point-from-origin/]                                                            | C++      |
+| 3 | Valid Sudoku               | Medium     | [https://leetcode.com/problems/valid-sudoku/description/]                                                              | C++      |
+| 4 | Detect Cycles in 2D Grid   | Medium     |  [https://leetcode.com/problems/detect-cycles-in-2d-grid/]                                                             | C++      |
 
 ---
 
