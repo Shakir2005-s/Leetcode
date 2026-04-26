@@ -39,7 +39,7 @@ README.md
 Each solution is written with emphasis on:
 
 * Readability and clarity
-* Optimal time and space complexity
+* Both brute force and Optimal solutions
 * Use of standard problem-solving patterns
 
 ---
