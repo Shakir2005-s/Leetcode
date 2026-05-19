@@ -1,36 +1,18 @@
-class Solution
-{
-    int FindCommonDigit(vector<int> &nums, int value)
-    {
-        int start = 0;
-        int end = nums.size() - 1;
-        while (start <= end)
-        {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] == value)
-            {
-                return nums[mid];
-            }
-            else if (nums[mid] > value)
-            {
-                end = mid - 1;
-            }
-            else
-            {
-                start = mid + 1;
-            }
-        }
-        return -1;
-    }
-
+class Solution {
 public:
-    int getCommon(vector<int> &nums1, vector<int> &nums2)
-    {
-        for (int i{}; i < nums1.size(); ++i)
-        {
-            int value = FindCommonDigit(nums2, nums1[i]);
-            if (value != -1)
-                return value;
+    int getCommon(vector<int>& nums1, vector<int>& nums2) {
+        int i = 0, j = 0;
+        
+        while (i < nums1.size() && j < nums2.size()) {
+            if (nums1[i] == nums2[j]) {
+                return nums1[i];
+            }
+            else if (nums1[i] < nums2[j]) {
+                i++;
+            }
+            else {
+                j++;
+            }
         }
         return -1;
     }
