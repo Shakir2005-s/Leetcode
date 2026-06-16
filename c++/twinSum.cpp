@@ -33,6 +33,7 @@ public:
             Max = max(currSum, Max);
             --half;
         }
+        
         return Max;
     }
 };
